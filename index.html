@@ -244,15 +244,14 @@
                     <p>We love feedback. Fill out the form below and we'll get back to you as soon as possible.</p>
                 </div>
                 <div class="col-lg-10 col-lg-offset-1 text-center">
-                    <form class="contact-form row" Action="mailto:site@site.com" METHOD="POST" ENCTYPE="text/plain">
-                      mailto: protocol test:
+                    <form class="contact-form row" action="https://formspree.io/vijaymadan1209@gmail.com>
                         <div class="col-md-4">
                             <label></label>
-                            <input type="text" class="form-control" placeholder="Name">
+                            <input type="text" name="name" class="form-control" placeholder="Name">
                         </div>
                         <div class="col-md-4">
                             <label></label>
-                            <input type="text" class="form-control" placeholder="Email">
+                            <input type="email" name="_replyto" class="form-control" placeholder="Email">
                         </div>
                         <div class="col-md-4">
                             <label></label>
@@ -264,6 +263,7 @@
                         </div>
                         <div class="col-md-4 col-md-offset-4">
                             <label></label>
+                            <input type="submit" value="Send">
                             <button type="button" data-toggle="modal" data-target="#alertModal" class="btn btn-primary btn-block btn-lg">Send <i class="ion-android-arrow-forward"></i></button>
                         </div>
                     </form>
